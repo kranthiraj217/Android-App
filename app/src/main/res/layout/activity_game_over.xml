@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".GameOver">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gamveover"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="70dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gamveover"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="PLAY AGAIN"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/btn"/>
+
+    <TextView
+        android:id="@+id/displayscore"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="score"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#C23A31"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    //displays name of the app
+    <string name="app_name">OCEAN KING</string>
+</resources>
